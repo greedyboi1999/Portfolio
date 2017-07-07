@@ -5,11 +5,18 @@ body {
 nav .col-md-3 {
     font-size: 32px;
     text-align: center;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .profile-image {
     display: block;
     margin: 0 auto;
     height: 300px;
+    width: 300px;
     border-radius: 100%;
 }
+h1 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+ 
