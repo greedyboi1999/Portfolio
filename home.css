@@ -6,14 +6,11 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #333;
 }
-
 li {
-    float: left;
+    display: inline-block;
 }
-
 li a {
     display: block;
     color: white;
@@ -65,8 +62,15 @@ h1 {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     position: absolute;
-    bottom: 15px;
-    left: 31%;
+    bottom: 35px;
+    left: 37%;
+}
+
+h2 {text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    bottom: 5px;
+    left: 27%;
 }
 
 nav {

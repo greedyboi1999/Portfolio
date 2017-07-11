@@ -14,12 +14,18 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="art.css">
 </head>
 <body>
      <ul>
   <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#work">Work</a></li>
+  <li class="dropdown">
+       <a class="dropdown-toggle" data-toggle="dropdown" href="#work">Work <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="art.html">Art Gallery</a></li>
+            <li><a href="#">Music</a></li>
+        </ul>
+    </li>
   <li><a href="#Resume">Resume</a></li>
   <li><a href="#about">About Me</a></li>
 </ul>
